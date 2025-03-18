@@ -1,0 +1,47 @@
+/* Add these styles to ensure dark mode applies to the entire page */
+[data-bs-theme="dark"] body {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+[data-bs-theme="light"] body {
+  background-color: #ffffff;
+  color: #212529;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Animation for bookmark button */
+.btn-warning i, .btn-outline-warning i {
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-warning:hover i, .btn-outline-warning:hover i {
+  transform: scale(1.2);
+}
+
+/* Theme toggle button animation */
+.btn-outline-secondary i {
+  transition: transform 0.3s ease;
+}
+
+.btn-outline-secondary:hover i {
+  transform: rotate(30deg);
+}
+
+/* Make sure the app container takes full height */
+.app {
+  min-height: 100vh;
+}
+
+/* Add some padding to the bottom of the container */
+.container {
+  padding-bottom: 2rem;
+}
