@@ -79,7 +79,12 @@ npm start
 
 ## Demo Video 🎥
 [![Watch the Video](https://drive.google.com/file/d/1HTiGNO1q92cCrHTyI9Ou-_-ZQBhKjIkX/view?usp=drive_link)
+<video width="600" controls>
+   <source src="assets/videoDemo.mp4" type="video/mp4">
+   Your browser does not support the video tag.
+</video>
 
 ## Contributors
+
 
 - [Mohit Kumar](https://github.com/Mohitkumar1322)
